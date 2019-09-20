@@ -7,8 +7,8 @@ body {
 
 header {
     background-color: #ffffff;
-    border: solid;
-    border-color: #cccccc;
+    border-bottom: 5px solid #4aaaa5;
+    /* border-color: #cccccc; */
 }
 
 h1 {
@@ -38,7 +38,13 @@ a {
 footer {
     background-color: #666666;
     text-align: center;
-    margin-top: 5px;
+    padding: 10px;
+    font-size: 10px;
+    color: #cccccc;
+    border-top: 8px solid #4aaaa5;
+    /* position: fixed; */
+    /* position: bottom; */
+    /* width: 100%; */
 }
 
 div {
@@ -47,5 +53,6 @@ div {
     border-color: #dddddd;
     clear: both;
     height: 500px;
+    padding: 30px;
+    color: #4aaaa5;
 }
-
