@@ -39,6 +39,11 @@ img {
     margin-right: 10px;
 }
 
+table {
+    position: relative;
+    left: 100px;
+}
+
 p, form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -59,13 +64,15 @@ footer {
     background-color: #666666;
     text-align: center;
     padding: 10px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-size: 10px;
     color: #cccccc;
     border-top: 8px solid #4aaaa5;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 15px;
+    margin-top: 50px;
 }
 
 div {
@@ -78,6 +85,8 @@ div {
     padding: 30px;
     color: #4aaaa5;
     margin: auto;
+    overflow: auto;
+    margin-bottom: -50px;
 }
 
 button {
